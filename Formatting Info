@@ -1,0 +1,41 @@
+###Formatting Info###
+
+Type: s
+Description: String (default presentation type - can be omitted)	
+Example: '{:s}'.format('Aiden')
+Output: Aiden
+
+Type: d	
+Description: Decimal (integer values only)	
+Example: '{:d}'.format(4)
+Output: 4
+
+Type: b	
+Description: Binary (integer values only)	
+Example: '{:b}'.format(4)
+Output: 100
+
+Type:x, X	
+Descriprion: Hexadecimal in lowercase (x) and uppercase (X) (integer values only)	
+Example: '{:x}'.format(15)
+Output: f
+
+Type: e	
+Descrip: tion: Exponent notation	
+Example'{:e}'.format(44)
+Output: 4.400000e+01
+
+Type: f	
+Description: Fixed-point notation (6 places of precision)	
+Example: '{:f}'.format(4) ##The number in the () tells how many decimal places to go
+Output: 4.0000
+
+Type: .[precision]f	
+Description: Fixed-point notation (programmer-defined precision)	
+Example: '{:.2f}'.format(4)
+Output: 4.00
+
+Type: 0[precision]d	
+Description: Leading 0 notation	
+Example: '{:03d}'.format(4)
+Output: 004
